@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tytulowa/static/css/main.cb07c542.chunk.css",
+    "main.js": "/tytulowa/static/js/main.42216028.chunk.js",
+    "main.js.map": "/tytulowa/static/js/main.42216028.chunk.js.map",
+    "runtime-main.js": "/tytulowa/static/js/runtime-main.e84f48b5.js",
+    "runtime-main.js.map": "/tytulowa/static/js/runtime-main.e84f48b5.js.map",
+    "static/js/2.4f61f20a.chunk.js": "/tytulowa/static/js/2.4f61f20a.chunk.js",
+    "static/js/2.4f61f20a.chunk.js.map": "/tytulowa/static/js/2.4f61f20a.chunk.js.map",
+    "index.html": "/tytulowa/index.html",
+    "precache-manifest.795b20d4df686e1fda562d28ecfc2006.js": "/tytulowa/precache-manifest.795b20d4df686e1fda562d28ecfc2006.js",
+    "service-worker.js": "/tytulowa/service-worker.js",
+    "static/css/main.cb07c542.chunk.css.map": "/tytulowa/static/css/main.cb07c542.chunk.css.map",
+    "static/js/2.4f61f20a.chunk.js.LICENSE.txt": "/tytulowa/static/js/2.4f61f20a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e84f48b5.js",
+    "static/js/2.4f61f20a.chunk.js",
+    "static/css/main.cb07c542.chunk.css",
+    "static/js/main.42216028.chunk.js"
+  ]
+}
