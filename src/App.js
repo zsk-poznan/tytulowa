@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Canvas from "./components/canvas";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const [name, setName] = useState("Jan Kowalski");
+	const [klasa, setKlasa] = useState("1X");
+
+	const handleName = (e) => {
+		if (!e.target.value) return setName("Jan Kowalski");
+		setName(e.target.value);
+	};
+
+	const handleKlasa = (e) => {
+		if (!e.target.value) return setKlasa("1X");
+		setKlasa(e.target.value);
+	};
+
+	return (
+		<>
+			<Canvas name={name} klasa={klasa} />
+			<input placeholder="Imię i Nazwisko" onChange={handleName} />
+			<input placeholder="Klasa" onChange={handleKlasa} />
+		</>
+	);
 }
 
 export default App;
