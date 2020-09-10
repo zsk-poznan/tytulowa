@@ -6,6 +6,7 @@ const Canvas = ({ name, klasa }) => {
 	useEffect(() => {
 		const canvas = canvasRef.current;
 		const ctx = canvas.getContext("2d");
+
 		let logo = new Image();
 		logo.src = "logo.png";
 
@@ -47,6 +48,14 @@ const Canvas = ({ name, klasa }) => {
 
 		ctx.font = "400 30px Montserrat";
 		ctx.fillText(`Klasa ${klasa}`, ctx.canvas.width / 2, 285);
+
+		const ratio =
+			window.screen.availWidth > 800
+				? 1
+				: window.screen.availWidth / canvas.width;
+
+		canvas.style.width = canvas.width * ratio + "px";
+		canvas.style.height = canvas.height * ratio + "px";
 	}, [name, klasa]);
 
 	return <canvas ref={canvasRef} />;
