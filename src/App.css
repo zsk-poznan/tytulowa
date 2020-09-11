@@ -63,6 +63,20 @@ footer {
 	text-align: center;
 }
 
+@media only screen and (max-height: 600px) {
+	footer {
+		position: relative;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.container input {
+		padding: 0.3em;
+		font-size: 1.4em;
+		width: 250px;
+	}
+}
+
 footer a {
 	color: black;
 }
