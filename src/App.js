@@ -13,7 +13,7 @@ function App() {
 		const ctx = canvas.getContext("2d");
 
 		let logo = new Image();
-		logo.src = "/logo.png";
+		logo.src = "/tytulowa/logo.png";
 
 		canvas.width = 800;
 		canvas.height = 500;
@@ -95,7 +95,7 @@ function App() {
 				onChange={(e) => handleKlasa(e.target.value)}
 			/>
 			<a
-				href="/"
+				href="/tytulowa"
 				onClick={save}
 				download={`${name
 					.toLowerCase()
