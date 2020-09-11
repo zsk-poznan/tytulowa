@@ -57,3 +57,18 @@
 	background: #3c258f;
 	box-shadow: 6px 6px 0px #00000055;
 }
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+footer a {
+	color: black;
+}
+
+footer img {
+	height: 32px;
+}
