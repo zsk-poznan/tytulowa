@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3ba8bdabddcbe259937029f742b6d237",
+    "revision": "e7c2e5c8c0380a65478fc36687f108c9",
     "url": "/tytulowa/index.html"
   },
   {
-    "revision": "d05692fa3fdde17e75fe",
-    "url": "/tytulowa/static/css/main.bbef718d.chunk.css"
+    "revision": "59417170a1bb763ced04",
+    "url": "/tytulowa/static/css/main.fc4a86a0.chunk.css"
   },
   {
     "revision": "7ef21c04e63408f158d2",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tytulowa/static/js/2.4f61f20a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d05692fa3fdde17e75fe",
+    "revision": "59417170a1bb763ced04",
     "url": "/tytulowa/static/js/main.cf663a9d.chunk.js"
   },
   {
