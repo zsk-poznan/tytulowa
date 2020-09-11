@@ -50,7 +50,7 @@ const useCanvas = (canvasRef, name, klasa) => {
 		const ratio =
 			window.screen.availWidth > 800
 				? 1
-				: window.screen.availWidth / canvas.width;
+				: window.screen.availWidth / canvas.width / 1.05;
 
 		canvas.style.width = canvas.width * ratio + "px";
 		canvas.style.height = canvas.height * ratio + "px";
