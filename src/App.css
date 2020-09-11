@@ -9,6 +9,12 @@
 
 .container canvas {
 	box-shadow: 5px 5px 0px #00000055;
+	transition: box-shadow 0.3s ease;
+	margin-bottom: 2em;
+}
+
+.container canvas:hover {
+	box-shadow: 10px 10px 0px #00000055;
 }
 
 .container input {
@@ -19,11 +25,35 @@
 	background: #00000022;
 	border: none;
 	border-radius: 5px;
-	transition: background 0.4s ease;
+	transition: background 0.3s ease;
 	text-align: center;
 }
 
 .container input:focus {
 	outline: none;
 	background: #00000033;
+}
+
+.container input:hover {
+	outline: none;
+	background: #00000033;
+}
+
+.container a {
+	margin-top: 1em;
+	padding: 0.7em;
+	font-size: 0.75em;
+	background: #28146d;
+	border-radius: 8px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.25em;
+	transition: all 0.3s ease;
+	box-shadow: 3px 3px 0px #00000055;
+	margin-top: 2em;
+}
+
+.container a:hover {
+	background: #3c258f;
+	box-shadow: 6px 6px 0px #00000055;
 }
