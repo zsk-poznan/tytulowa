@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/tytulowa/static/css/main.74f62606.chunk.css",
-    "main.js": "/tytulowa/static/js/main.1d811244.chunk.js",
-    "main.js.map": "/tytulowa/static/js/main.1d811244.chunk.js.map",
+    "main.css": "/tytulowa/static/css/main.0c8ac613.chunk.css",
+    "main.js": "/tytulowa/static/js/main.cf663a9d.chunk.js",
+    "main.js.map": "/tytulowa/static/js/main.cf663a9d.chunk.js.map",
     "runtime-main.js": "/tytulowa/static/js/runtime-main.e84f48b5.js",
     "runtime-main.js.map": "/tytulowa/static/js/runtime-main.e84f48b5.js.map",
     "static/js/2.4f61f20a.chunk.js": "/tytulowa/static/js/2.4f61f20a.chunk.js",
     "static/js/2.4f61f20a.chunk.js.map": "/tytulowa/static/js/2.4f61f20a.chunk.js.map",
     "index.html": "/tytulowa/index.html",
-    "precache-manifest.96bca6233add9589ea01641e07b3f348.js": "/tytulowa/precache-manifest.96bca6233add9589ea01641e07b3f348.js",
+    "precache-manifest.a3a4b2f0bbf56b358dc3b4f24e05656e.js": "/tytulowa/precache-manifest.a3a4b2f0bbf56b358dc3b4f24e05656e.js",
     "service-worker.js": "/tytulowa/service-worker.js",
-    "static/css/main.74f62606.chunk.css.map": "/tytulowa/static/css/main.74f62606.chunk.css.map",
+    "static/css/main.0c8ac613.chunk.css.map": "/tytulowa/static/css/main.0c8ac613.chunk.css.map",
     "static/js/2.4f61f20a.chunk.js.LICENSE.txt": "/tytulowa/static/js/2.4f61f20a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e84f48b5.js",
     "static/js/2.4f61f20a.chunk.js",
-    "static/css/main.74f62606.chunk.css",
-    "static/js/main.1d811244.chunk.js"
+    "static/css/main.0c8ac613.chunk.css",
+    "static/js/main.cf663a9d.chunk.js"
   ]
 }
